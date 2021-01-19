@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(./images/gray-comp.jpg);
+    background-size: cover;
+}
+
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+}
+
+.card-img {
+    width: 200px;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.card-body {
+    background-color: transparent;
+}
+
+.portfolio-img {
+    width: 200px;
+}
