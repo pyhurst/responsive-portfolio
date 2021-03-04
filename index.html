@@ -20,8 +20,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark invisible" >
             <a class="navbar-brand" href="/">Phil Hurst</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,8 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#portfolio">Portfolio</a>
-                            <a class="dropdown-item" href="https://www.thesquaresgame.com" target="_blank">Squares Game</a>
+                            <a class="dropdown-item" href="https://www.thesquaresgame.com" target="_blank">Squares
+                                Game</a>
                             <a class="dropdown-item" href="https://plabk.herokuapp.com" target="_blank">Placebook</a>
                             <a class="dropdown-item" href="https://fierce-waters-27012.herokuapp.com/"
                                 target="_blank">Shelter
@@ -60,8 +61,8 @@
                                 target="_blank">Employee
                                 Management System</a>
                             <a class="dropdown-item" href="https://pyhurst.github.io/BC_Homework_6/"
-                            target="_blank">Weather
-                            Dashboard</a>
+                                target="_blank">Weather
+                                Dashboard</a>
                         </div>
                     </li>
                 </ul>
@@ -71,13 +72,17 @@
 
     <div class="container">
         <div class="jumbotron home">
-            <h1 class="display-1 title">Welcome! I am Phil Hurst, your go to Full Stack Developer!</h1>
-            <p class="lead title">Create your idea into a responsive and innovative web application.</p>
-            <!-- <hr class="my-4"> -->
-            <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-            <a class="btn btn-dark home_buttons" href="#about" role="button">About</a>
-            <a class="btn btn-dark home_buttons" href="#portfolio" role="button">Portfolio</a>
-            <a class="btn btn-dark home_buttons" href="#contact" role="button">Contact</a>
+            <h1 class="display-1">Welcome!</h1>
+            <div class="scroll-title">
+                <h1 class="display-1 first"> I'm Phil Hurst,</h1>
+                <h1 class="display-1 title">Full Stack Developer!</h1>
+                <p class="lead title-statement">Create your idea into a responsive and innovative web application.</p>
+                <!-- <hr class="my-4"> -->
+                <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+                <a class="btn btn-dark home_buttons" href="#about" role="button">About</a>
+                <a class="btn btn-dark home_buttons" href="#portfolio" role="button">Portfolio</a>
+                <a class="btn btn-dark home_buttons" href="#contact" role="button">Contact</a>
+            </div>
             <div class='icons-div'>
                 <a href='https://www.linkedin.com/in/phil-hurst-b293111a7/' target="_blank"><i
                         class='bx bxl-linkedin social-icon'></i></a>
@@ -95,7 +100,8 @@
                     <div class="col-sm-6">
                         <div class="card-body">
                             <!-- <h5 class="card-title">About Me</h5> -->
-                            <p class="card-text about-main">Hello! I was born and raised in the suburbs of Chicago. I had a knack
+                            <p class="card-text about-main"><span id='h-span'>H</span>ello! I was born and raised in the suburbs of Chicago. I
+                                had a knack
                                 for numbers at an
                                 early age, which led me into the field of Finance at the Illinois State University.
                                 After graduation, I
@@ -103,9 +109,13 @@
                                 loved what I did, but
                                 realized that I did not want to trade the financial markets for the rest of my life so I
                                 applied for the
-                                Northwestern University Coding Bootcamp where I learned to be a full stack developer.
+                                Northwestern University Coding Bootcamp to become a full stack developer.
                             </p>
-                            <p class="card-text about-quote"><small class="text-muted">"Whether you think you can, or you think you
+                            <p class="card-text about-main">
+                                <span id='h-span'>D</span>uring the pandemic, I have taken many more classes on Udemy and have receieved certificates in Advanced Javascript, React, Redux, and UI/UX design.
+                            </p>
+                            <p class="card-text about-quote"><small class="text-muted">"Whether you think you can, or
+                                    you think you
                                     can't--you're
                                     right." - Henry Ford</small></p>
                         </div>
@@ -276,9 +286,14 @@
 
     <footer class="footer">
         <div id='contactInfo'>
-            <h5 class="footer__title">Phil Hurst</h5>
-            <h5>Email: Youngphil9@gmail.com</h5>
-            <h5>Phone: (630)-333-5497</h5>
+            <p>2019<i class='bx bx-copyright'></i> Phil Hurst made with <i class='bx bx-heart' ></i></p>
+            <p><i class='bx bx-mail-send' > Youngphil9@gmail.com</i></p>
+            <p><i class='bx bx-phone-outgoing' > (630)-333-5497</i></p>
+        </div>
+        <div class='icons-footer-div'>
+            <a href='https://www.linkedin.com/in/phil-hurst-b293111a7/' target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href='https://github.com/pyhurst' target="_blank"><i class='bx bxl-github'></i></a>
         </div>
     </footer>
 

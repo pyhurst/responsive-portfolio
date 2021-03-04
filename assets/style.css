@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(./images/gray-comp.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(./images/gray-comp.jpg) center fixed;
     background-size: cover;
 }
 
@@ -28,10 +28,33 @@ body {
 
 .card-body {
     background-color: transparent;
+    height: 24rem;
+}
+
+.about-main {
+    font-size: 1.5rem;
+}
+
+.about-quote {
+    font-size: 1.5rem;
+}
+
+#myImg {
+    padding-top: 2rem;
+}
+
+.about-body {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    height: calc(100vh - 5rem);
+}
+
+.about-div {
+    padding-top: 5rem;
 }
 
 .portfolio-img {
-    width: 200px;
+    width: 250px;
 }
 
 .home {
@@ -44,6 +67,9 @@ body {
 
 .navbar {
     background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    width: 100vh;
 }
 
 .bx {
@@ -51,18 +77,21 @@ body {
     margin-left: 0.5rem;
 }
 
-.about-body {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    height: calc(100vh - 3rem);
+#h-span {
+    font-size: 3rem;
 }
 
 .portfolio-body {
     margin-top: 2rem;
 }
 
+.portfolio-div {
+    padding-top: 5rem;
+}
+
 .contact-div {
-    height: calc(100vh - 3rem);
+    height: calc(100vh - 5rem);
+    padding-top: 4rem;
 }
 
 #contact-title {
@@ -72,6 +101,16 @@ body {
 
 .form-control {
     margin-bottom: 2rem;
+    text-align: left;
+}
+
+option {
+    color: black;
+}
+
+.icons-footer-div {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
 }
 
 @media (max-width: 375px) {
